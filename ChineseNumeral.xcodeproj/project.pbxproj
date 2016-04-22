@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B70EE8151C73270900432ECD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70EE8141C73270900432ECD /* AppDelegate.swift */; };
+		B70EE8171C73270900432ECD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70EE8161C73270900432ECD /* ViewController.swift */; };
+		B70EE81A1C73270900432ECD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70EE8181C73270900432ECD /* Main.storyboard */; };
+		B70EE81D1C73270900432ECD /* ChineseNumeral.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B70EE81B1C73270900432ECD /* ChineseNumeral.xcdatamodeld */; };
+		B70EE81F1C73270900432ECD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B70EE81E1C73270900432ECD /* Assets.xcassets */; };
+		B70EE8221C73270900432ECD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B70EE8201C73270900432ECD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B70EE8111C73270900432ECD /* 中文数字.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "中文数字.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B70EE8141C73270900432ECD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B70EE8161C73270900432ECD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B70EE8191C73270900432ECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B70EE81C1C73270900432ECD /* ChineseNumeral.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChineseNumeral.xcdatamodel; sourceTree = "<group>"; };
+		B70EE81E1C73270900432ECD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B70EE8211C73270900432ECD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B70EE8231C73270900432ECD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B70EE80E1C73270900432ECD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B70EE8081C73270900432ECD = {
+			isa = PBXGroup;
+			children = (
+				B70EE8131C73270900432ECD /* ChineseNumeral */,
+				B70EE8121C73270900432ECD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B70EE8121C73270900432ECD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B70EE8111C73270900432ECD /* 中文数字.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B70EE8131C73270900432ECD /* ChineseNumeral */ = {
+			isa = PBXGroup;
+			children = (
+				B70EE8141C73270900432ECD /* AppDelegate.swift */,
+				B70EE8161C73270900432ECD /* ViewController.swift */,
+				B70EE8181C73270900432ECD /* Main.storyboard */,
+				B70EE81E1C73270900432ECD /* Assets.xcassets */,
+				B70EE8201C73270900432ECD /* LaunchScreen.storyboard */,
+				B70EE8231C73270900432ECD /* Info.plist */,
+				B70EE81B1C73270900432ECD /* ChineseNumeral.xcdatamodeld */,
+			);
+			path = ChineseNumeral;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B70EE8101C73270900432ECD /* ChineseNumeral */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B70EE8261C73270900432ECD /* Build configuration list for PBXNativeTarget "ChineseNumeral" */;
+			buildPhases = (
+				B70EE80D1C73270900432ECD /* Sources */,
+				B70EE80E1C73270900432ECD /* Frameworks */,
+				B70EE80F1C73270900432ECD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChineseNumeral;
+			productName = ChineseNumeral;
+			productReference = B70EE8111C73270900432ECD /* 中文数字.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B70EE8091C73270900432ECD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = alphwe;
+				TargetAttributes = {
+					B70EE8101C73270900432ECD = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = B70EE80C1C73270900432ECD /* Build configuration list for PBXProject "ChineseNumeral" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B70EE8081C73270900432ECD;
+			productRefGroup = B70EE8121C73270900432ECD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B70EE8101C73270900432ECD /* ChineseNumeral */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B70EE80F1C73270900432ECD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B70EE8221C73270900432ECD /* LaunchScreen.storyboard in Resources */,
+				B70EE81F1C73270900432ECD /* Assets.xcassets in Resources */,
+				B70EE81A1C73270900432ECD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B70EE80D1C73270900432ECD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B70EE8171C73270900432ECD /* ViewController.swift in Sources */,
+				B70EE8151C73270900432ECD /* AppDelegate.swift in Sources */,
+				B70EE81D1C73270900432ECD /* ChineseNumeral.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B70EE8181C73270900432ECD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B70EE8191C73270900432ECD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B70EE8201C73270900432ECD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B70EE8211C73270900432ECD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B70EE8241C73270900432ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B70EE8251C73270900432ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B70EE8271C73270900432ECD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChineseNumeral/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alphwe.ChineseNumeral;
+				PRODUCT_NAME = "中文数字";
+			};
+			name = Debug;
+		};
+		B70EE8281C73270900432ECD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChineseNumeral/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alphwe.ChineseNumeral;
+				PRODUCT_NAME = "中文数字";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B70EE80C1C73270900432ECD /* Build configuration list for PBXProject "ChineseNumeral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B70EE8241C73270900432ECD /* Debug */,
+				B70EE8251C73270900432ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B70EE8261C73270900432ECD /* Build configuration list for PBXNativeTarget "ChineseNumeral" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B70EE8271C73270900432ECD /* Debug */,
+				B70EE8281C73270900432ECD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B70EE81B1C73270900432ECD /* ChineseNumeral.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B70EE81C1C73270900432ECD /* ChineseNumeral.xcdatamodel */,
+			);
+			currentVersion = B70EE81C1C73270900432ECD /* ChineseNumeral.xcdatamodel */;
+			path = ChineseNumeral.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B70EE8091C73270900432ECD /* Project object */;
+}
